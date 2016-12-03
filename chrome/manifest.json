@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Github -> Jira linker",
+  "description": "Link Github PRs with proper Jira tickets",
+
+  "author": "Michał Budzyński <michal@virtualdesign.pl>",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/meetsoci/soci/pull/*"],
+      "css": ["style.css"],
+      "js": ["script.js"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+a.jira-link {
+  color: #4078c0;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+a.jira-link:hover {
+  color: #336479;
+  text-decoration: underline;
+}
