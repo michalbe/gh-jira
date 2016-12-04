@@ -8,9 +8,12 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["https://github.com/meetsoci/soci/pull/*", "https://github.com/meetsoci/soci/pulls"],
-      "css": ["style.css"],
-      "js": ["script.js"],
+      "matches": [
+        "https://github.com/meetsoci/soci/pull/*",
+        "https://github.com/meetsoci/soci/pulls"
+      ],
+      "css": [ "style.css" ],
+      "js": [ "script.js" ],
       "run_at": "document_end"
     }
   ]

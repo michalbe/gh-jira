@@ -6,8 +6,11 @@ var linker = function() {
 
   if (titleDOM) {
     var title = titleDOM.innerText;
+
     title = title.replace(/(SO-\d+)/gi, function(title) {
-      return '<a href=' + url + title + ' class="jira-link" target="_blank">' + title + '</a>';
+      return '<a href=' + url + title +
+        ' class="jira-link" target="_blank">' + title +
+        '</a>';
     });
 
     titleDOM.innerHTML = title;
