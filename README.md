@@ -2,7 +2,7 @@
 
 This Mozilla Firefox/Google Chrome Add-on changes ticket numbers in PRs' titles to links to proper Jira tickets.
 
-![images/how.gif](How it works?)
+![How it works?](images/how.gif)
 
 ## Instalation
 
@@ -15,7 +15,7 @@ This Mozilla Firefox/Google Chrome Add-on changes ticket numbers in PRs' titles 
   - Choose the folder where `gh-jira-soci` was downloaded
   - Go to [https://github.com/meetsoci/soci/pulls](https://github.com/meetsoci/soci/pulls) and refresh
 
-![images/chrome.png](Google Chrome)
+![Google Chrome](images/chrome.png)
 
 ### Mozilla Firefox
 
@@ -25,4 +25,4 @@ This Mozilla Firefox/Google Chrome Add-on changes ticket numbers in PRs' titles 
   - Go to [https://github.com/meetsoci/soci/pulls](https://github.com/meetsoci/soci/pulls) and refresh
   - Note that this will work only till Firefox will be restarted (what probably doesn't occur often for we developers)
 
-![images/firefox.png](Mozilla Firefox)
+![Mozilla Firefox](images/firefox.png)
