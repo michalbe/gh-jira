@@ -9,8 +9,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/meetsoci/soci/pull/*",
-        "https://github.com/meetsoci/soci/pulls"
+        "https://github.com/my_company/my_repo/pull/*",
+        "https://github.com/my_company/my_repo/pulls",
       ],
       "css": [ "style.css" ],
       "js": [ "script.js" ],

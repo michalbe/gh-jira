@@ -18,7 +18,8 @@ This Mozilla Firefox/Google Chrome Add-on changes ticket numbers in PRs' titles 
     ticket_label: 'MY_COMPANY-' // <- note the dash here
   }
   ```
-
+  - Add your repo address in the `manifest.json` file under `content_scripts::matches`
+  
 ### Google Chrome
 
   - Go to `chrome://extensions/`
