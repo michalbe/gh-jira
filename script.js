@@ -6,11 +6,11 @@ const CONFIG = {
 }
 
 /* global document */
-var linker = () => {
-  var titleDOM = document.querySelector('.js-issue-title');
+const linker = () => {
+  const titleDOM = document.querySelector('.js-issue-title');
 
   if (titleDOM) {
-    var title = titleDOM.innerText;
+    const title = titleDOM.innerText;
 
     title = title.replace(new RegExp(`${CONFIG.ticket_label}\\d+`, 'gi'), title => {
       return `
