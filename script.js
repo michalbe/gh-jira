@@ -6,16 +6,19 @@ const CONFIG = {
 }
 
 /* global document */
-var linker = function() {
+var linker = () => {
   var titleDOM = document.querySelector('.js-issue-title');
 
   if (titleDOM) {
     var title = titleDOM.innerText;
 
-    title = title.replace(/(SO-\d+)/gi, function(title) {
-      return '<a href=' + config.jira_url + title +
-        ' class="jira-link" target="_blank">' + title +
-        '</a>';
+    title = title.replace(new RegExp(`${CONFIG.ticket_label}\\d+`, 'gi'), title => {
+      return `
+      <a
+        href=${CONFIG.jira_url + title}
+        class="jira-link"
+        target="_blank"
+      >${title}</a>`;
     });
 
     titleDOM.innerHTML = title;
