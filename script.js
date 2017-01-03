@@ -1,8 +1,8 @@
 'use strict';
 
 const CONFIG = {
-  jira_url: 'https://meetsoci.atlassian.net/browse/',
-  ticket_label: 'SO-'
+  jira_url: 'https://your_company.atlassian.net/browse/',
+  ticket_label: 'JIRA'
 }
 
 /* global document */

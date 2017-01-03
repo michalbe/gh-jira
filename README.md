@@ -8,6 +8,17 @@ This Mozilla Firefox/Google Chrome Add-on changes ticket numbers in PRs' titles 
 
   - Clone/download this repo
 
+## Configuration
+
+  - Put proper Jira ticket labels and Jira url in `script.js:CONFIG`:
+  - If your tickets use `MY_COMPANY-2023` notation, and your Jira instance runs on `http://my_company.atlassian.net`, then the `CONFIG` const should look like this:
+  ```js
+  const CONFIG = {
+    jira_url: 'https://my_company.atlassian.net/browse/', // <- note the `/browse` part here
+    ticket_label: 'MY_COMPANY-' // <- note the dash here
+  }
+  ```
+
 ### Google Chrome
 
   - Go to `chrome://extensions/`
